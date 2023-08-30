@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+	
+<listeners>
+	<listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+</listeners>
+
+    <test name="MyTestCase">
+        <classes>
+			<class name="com.github.CreateANewRepo_POST_Request"/>
+            <class name="com.github.DeleteRepo_DEL_Request"/>
+            <!-- Add more test classes if needed -->
+        </classes>
+    </test>
+    <!-- Add more test cases if needed -->
+</suite>

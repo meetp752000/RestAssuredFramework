@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.961" tests="8" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\patel\OneDrive\Desktop\meet\QA\SeleniumWorkSpace\RestassuredFrameWork\target\test-classes;C:\Users\patel\OneDrive\Desktop\meet\QA\SeleniumWorkSpace\RestassuredFrameWork\target\classes;C:\Users\Meet\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Meet\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Meet\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Meet\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Meet\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Meet\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Meet\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Meet\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Meet\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Meet\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Meet\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Meet\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Meet\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Meet\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Meet\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Meet\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Meet\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Meet\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Meet\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Meet\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Meet\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Meet\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Meet\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Meet\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Meet\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Meet\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Meet\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Meet\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Meet\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Meet\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Meet\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Meet\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Meet\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Meet\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Meet\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Meet\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Meet\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Meet\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Meet\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Meet\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\Meet\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\Meet\AppData\Local\Temp\surefire486071402011030307\surefirebooter16803778360930071552.jar C:\Users\Meet\AppData\Local\Temp\surefire486071402011030307 2023-08-29T22-19-52_910-jvmRun1 surefire3012417735376355280tmp surefire_02759137962093212269tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\patel\OneDrive\Desktop\meet\QA\SeleniumWorkSpace\RestassuredFrameWork\target\test-classes;C:\Users\patel\OneDrive\Desktop\meet\QA\SeleniumWorkSpace\RestassuredFrameWork\target\classes;C:\Users\Meet\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Meet\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Meet\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Meet\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Meet\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Meet\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Meet\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Meet\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Meet\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Meet\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Meet\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Meet\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Meet\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Meet\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Meet\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Meet\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Meet\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Meet\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Meet\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Meet\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Meet\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Meet\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Meet\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Meet\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Meet\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Meet\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Meet\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Meet\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Meet\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Meet\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Meet\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Meet\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Meet\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Meet\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Meet\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Meet\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Meet\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Meet\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Meet\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Meet\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\Meet\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Meet"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\patel\OneDrive\Desktop\meet\QA\SeleniumWorkSpace\RestassuredFrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Meet\AppData\Local\Temp\surefire486071402011030307\surefirebooter16803778360930071552.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="user.name" value="Meet"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Meet\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Meet\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="C:\Users\patel\OneDrive\Desktop\meet\QA\SeleniumWorkSpace\RestassuredFrameWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Meet/Desktop/meet/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/Meet/Desktop/meet/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\app\Meet\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Brackets\command;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-20;C:\Program Files\Java\jdk-20\bin;C:\apache-maven-3.9.3;C:\apache-maven-3.9.3\bin;C:\apache-ant-1.10.13;C:\apache-ant-1.10.13\bin;C:\Users\Meet\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Meet\AppData\Local\Programs\Python\Python38\;C:\Users\Meet\AppData\Local\Microsoft\WindowsApps;C:\Users\Meet\AppData\Local\GitHubDesktop\bin;;C:\Users\Meet\Desktop\meet\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="CheckResponseTime" classname="com.github.CreateANewRepo_POST_Request" time="0.004"/>
+  <testcase name="CheckStatus" classname="com.github.CreateANewRepo_POST_Request" time="0.001"/>
+  <testcase name="PrintResponseBody" classname="com.github.CreateANewRepo_POST_Request" time="0.061"/>
+  <testcase name="TestHeader" classname="com.github.CreateANewRepo_POST_Request" time="0.019"/>
+  <testcase name="CheckContent" classname="com.github.DeleteRepo_DEL_Request" time="0.06">
+    <failure message="expected [null] but found [application/json; charset=utf-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [null] but found [application/json; charset=utf-8]
+	at com.github.DeleteRepo_DEL_Request.CheckContent(DeleteRepo_DEL_Request.java:72)
+</failure>
+    <system-out><![CDATA[08-29-2023 22:20:06 DeleteRepo_DEL_Request.java INFO  [main] file 17 - **********Deleting Repo**********
+08-29-2023 22:20:08 DeleteRepo_DEL_Request.java INFO  [main] file 65 - **********Check Content**********
+08-29-2023 22:20:08 DeleteRepo_DEL_Request.java INFO  [main] file 71 - Content Type ==>application/json; charset=utf-8
+]]></system-out>
+  </testcase>
+  <testcase name="CheckResponseBody" classname="com.github.DeleteRepo_DEL_Request" time="0.001"/>
+  <testcase name="CheckResponseTime" classname="com.github.DeleteRepo_DEL_Request" time="0.001"/>
+  <testcase name="CheckStatus" classname="com.github.DeleteRepo_DEL_Request" time="0.001">
+    <failure message="expected [204] but found [401]" type="java.lang.AssertionError">java.lang.AssertionError: expected [204] but found [401]
+	at com.github.DeleteRepo_DEL_Request.CheckStatus(DeleteRepo_DEL_Request.java:54)
+</failure>
+    <system-out><![CDATA[08-29-2023 22:20:08 DeleteRepo_DEL_Request.java INFO  [main] file 49 - **********Checking Status**********
+08-29-2023 22:20:08 DeleteRepo_DEL_Request.java INFO  [main] file 53 - Status Code ==>401
+]]></system-out>
+  </testcase>
+</testsuite>

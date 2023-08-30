@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.961 s <<< FAILURE! - in TestSuite
+CheckContent(com.github.DeleteRepo_DEL_Request)  Time elapsed: 0.06 s  <<< FAILURE!
+java.lang.AssertionError: expected [null] but found [application/json; charset=utf-8]
+	at com.github.DeleteRepo_DEL_Request.CheckContent(DeleteRepo_DEL_Request.java:72)
+
+CheckStatus(com.github.DeleteRepo_DEL_Request)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [204] but found [401]
+	at com.github.DeleteRepo_DEL_Request.CheckStatus(DeleteRepo_DEL_Request.java:54)
+
